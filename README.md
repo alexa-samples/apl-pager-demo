@@ -1,17 +1,18 @@
-## My Project
+## APL Pager Demo
 
-TODO: Fill this README out!
+This skill demonstrates the [Pager Component](https://developer.amazon.com/docs/alexa-presentation-language/apl-pager.html).
 
-Be sure to:
+In this skill, when a user launches the skill, they will see a template that demonstrates the [Pager Component](https://developer.amazon.com/docs/alexa-presentation-language/apl-pager.html) using the AutoPage command.
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## What You Will Need
+*  [Amazon Developer Account](http://developer.amazon.com/alexa)
+*  The sample code on [GitHub](https://github.com/alexa-samples/apl-pager-demo).
+*  An Alexa device which has a display which supports APL (e.g. Amazon Echo Show)
 
-## Security
+## Setting Up the Demo
+This folder contains the interaction model and skill code.  It is structured to make it easy to deploy if you have the ASK CLI already setup.  If you would like to use the Developer Portal, you can follow the steps outlined in the [Hello World](https://github.com/alexa/skill-sample-nodejs-hello-world) example, substituting the [Model](./models/en-US.json) and the [skill code](./lambda/custom/index.js) when called for.
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+> Note: The demo also requires the [pager.json](./lambda/custom/pager.json) file.  Deploy it with the **index.js** file.
 
-## License
-
-This project is licensed under the Apache-2.0 License.
-
+## Running the Demo
+To start the demo say "alexa open pager demo".  It will load the pages and automatically page through them.
