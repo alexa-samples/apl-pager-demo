@@ -4,6 +4,9 @@ This skill demonstrates the [Pager Component](https://developer.amazon.com/docs/
 
 In this skill, when a user launches the skill, they will see a template that demonstrates the [Pager Component](https://developer.amazon.com/docs/alexa-presentation-language/apl-pager.html) using the AutoPage command.
 
+# ** This repository has been archived **
+This repository is still available as a point-in-time reference, but no further updates or support will be prioritized.
+
 ## What You Will Need
 *  [Amazon Developer Account](http://developer.amazon.com/alexa)
 *  The sample code on [GitHub](https://github.com/alexa-samples/apl-pager-demo).
